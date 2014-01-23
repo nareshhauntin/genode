@@ -61,7 +61,7 @@ namespace Genode
 				return 0;
 			}
 
-			bool need_size_for_free() const { return true; }
+			bool need_size_for_free() const override { return true; }
 	};
 }
 
